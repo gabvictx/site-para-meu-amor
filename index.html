@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Para o Amor da Minha Vida, Alex!</h1>
+    <p class="subtitulo">Um pedacinho do nosso amor em um cantinho só nosso 💖</p>
+  </header>
+
+  <div class="carousel">
+    <div><img src="img/foto1.jpg" alt="Foto 1"></div>
+    <div><img src="img/foto2.jpg" alt="Foto 2"></div>
+    <div><img src="img/foto3.jpg" alt="Foto 3"></div>
+    <!-- Adicione mais fotos aqui -->
+  </div>
+
+  <section>
+    <div class="mensagem">
+      <p>Desde o dia em que nos conhecemos, eu senti que algo seria diferente, e eu estava certo.<br> Cada sorriso seu é uma luz no meu dia, e cada momento com você é um presente. <br> Eu amo estar contigo, e amo poder falar que te amo💌 <br> Muito obrigado por se mostrar abrigo e desculpa as minhas loucuras, mas quero que saiba que quero passar todos esses perrengues contigo.</p>
+      <p>Esse site é só um jeitinho de mostrar o quanto eu te amo, mesmo com coisas simples. Espero que goste 💕</p>
+    </div>
+  </section>
+
+  <footer>
+    Feito com amor para você 💝
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 3000
+      });
+    });
+  </script>
+</body>
+</html>
